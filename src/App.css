@@ -1,0 +1,143 @@
+* {
+margin: 0px;
+}
+
+.home{
+  display: flex;
+}
+.dashboard-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.li{
+  margin-bottom: 2rem;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+.li:hover{
+  color: #38AA94;
+}
+li p{
+  padding-left:1rem;
+}
+.dashboard-slide{
+  padding-right: 2rem;
+  border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.profile-section{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
+  flex-direction: column;
+  margin-left: 1.8rem;
+}
+.profile-section p{
+  padding-top:2px ;
+  padding-bottom: 8px;
+}
+.logo{
+  width: 180px;
+  display: flex;
+padding: 10px 0 2rem 2rem;
+}
+.card-section{
+  display: flex;
+  flex-direction: row;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.card-div{
+  min-Width: 330px;
+   margin-left: 20px;
+    height: 330px;
+}
+.chart{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 2rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.card-title {
+  margin: 0rem 5rem 0 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer-sec{
+  border: 1px solid #F3FAF8;;
+  background-color: #F3FAF8;
+    color: rgb(63, 169, 150);
+        text-align: center;
+        display: flex;
+        padding: 3px 5px 3px 5px;
+        border-radius: 5px;
+}
+.live-section{
+  margin: 0rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.live-sec{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.live-image{
+width: 80%;
+display: flex;
+padding-left: 35px;
+margin-top: 1rem;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  padding: 1rem 0 1rem 0;
+}
+.right-sec {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+.notification{
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: row;
+  white-space: nowrap;
+  padding-bottom: 2rem;
+  
+}
+.notification1{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+  
+}
+.vertical-divider {
+  width: 2px;
+ 
+  height: 20%;
+color: #38AA94;
+  background-color: red;
+  
+  margin: 0 5px;
+ 
+}
+
+
+.mid-text{
+  margin:10px 0 20px 30px;
+  font-size: 28px;
+}
