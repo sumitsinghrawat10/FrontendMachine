@@ -141,3 +141,57 @@ color: #38AA94;
   margin:10px 0 20px 30px;
   font-size: 28px;
 }
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+.card-upper{
+  background-color: white;
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: row;
+  }
+.card-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.card-upper{
+  margin-left: 1rem;
+}
+  .dashboard-slide {
+    width: 40%;
+    padding: 10px;
+  }
+
+  .dashboard-left li {
+    margin-bottom: 5px;
+  }
+
+  .mid-section {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .MuiButton-contained {
+    padding: 8px 16px;
+  }
+
+  .MuiButton-label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiButton-contained {
+    padding: 6px 12px;
+  }
+
+  .MuiButton-label {
+    font-size: 12px;
+  }
+}
+

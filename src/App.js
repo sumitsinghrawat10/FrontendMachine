@@ -24,6 +24,7 @@ import img from "./img/pics.png";
 import { Divider } from '@mui/material';
 
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
   const option = {
@@ -138,38 +139,42 @@ function App() {
       <div className="dashboard-slide">
         <img src={Logo} alt="log" className="logo" />
         <ul style={{ listStyleType: "none" }} className="dashboard-left">
+         
           <li className="li">
             {" "}
-            <GridViewOutlinedIcon /> <p>Dashboard</p>
+          
+            <GridViewOutlinedIcon />  <Link to="/menu" className="no-underline"> <p>Dashboard</p></Link>
+       
           </li>
+          
           <li className="li">
             {" "}
             <AutoStoriesOutlinedIcon />
-            <p> Courses</p>
+            <Link to="/menu" className="no-underline"></Link><p> Courses</p>
           </li>
           <li className="li">
             {" "}
-            <CalendarMonthOutlinedIcon /> <p>Exam</p>{" "}
+            <CalendarMonthOutlinedIcon /> <Link to="/menu" className="no-underline"><p>Exam</p></Link>{" "}
           </li>
           <li className="li">
             {" "}
-            <EditNoteOutlinedIcon /> <p>Results</p>{" "}
+            <EditNoteOutlinedIcon /> <Link to="/menu" className="no-underline">  <p>Results</p></Link>{" "}
           </li>
           <li className="li">
             {" "}
-            <PeopleAltOutlinedIcon /> <p>Students</p>
+            <PeopleAltOutlinedIcon />  <Link to="/menu" className="no-underline"><p>Students</p></Link>
           </li>
           <li className="li">
             {" "}
-            <ChatOutlinedIcon /> <p>Message</p>
+          <ChatOutlinedIcon />  <Link to="/menu" className="no-underline"><p>Message</p></Link>
           </li>
           <li className="li">
             {" "}
-            <AssignmentOutlinedIcon /> <p>Notice Board</p>
+            <AssignmentOutlinedIcon />  <Link to="/menu" className="no-underline"> <p>Notice Board</p></Link>
           </li>
           <li className="li">
             {" "}
-            <LiveTvOutlinedIcon /> <p>Live Class</p>
+            <LiveTvOutlinedIcon /> <Link to="/menu" className="no-underline"> <p>Live Class</p></Link>
           </li>
         </ul>
         <div className="profile-section">
@@ -191,7 +196,7 @@ function App() {
       <div style={{ backgroundColor: "#FAFCFE" }}>
         <h2 className="mid-text" >overview</h2>
         <div className="card-section">
-          <Card sx={{ minWidth: 330, height: "330px" }}>
+          <Card sx={{ minWidth: 330, height: "330px" }} className="card-upper">
             <CardContent>
               <h3>Total Students</h3>
               <h4 style={{fontSize:"20px"}}>930</h4>
